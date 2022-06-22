@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@+id/toast_layout_root"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="407dp"
+        android:layout_height="213dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="cursive"
+        android:shadowColor="#23F593"
+        android:shadowDx="2"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text="  Happy  Birthday  Name"
+        android:textColor="#11209F"
+        android:textSize="50dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    <Button-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="56dp"-->
+<!--        android:layout_height="306dp"-->
+<!--        android:background="#0000ffff"-->
+
+<!--        android:backgroundTint="#00F4EBEB"-->
+<!--        android:fontFamily="cursive"-->
+<!--        android:onClick="Shilpa"-->
+<!--        android:shadowColor="#23F593"-->
+<!--        android:shadowDx="2"-->
+<!--        android:shadowDy="1"-->
+<!--        android:shadowRadius="2"-->
+<!--        android:text="Shilpa"-->
+<!--        android:textAllCaps="false"-->
+
+<!--        android:textColor="#11209F"-->
+<!--        android:textSize="40dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.127" />-->
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="226dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="76dp"
+        android:backgroundTint="#750FE4F8"
+        android:fontFamily="cursive"
+        android:onClick="Secondpage"
+        android:text=" Memories"
+        android:textColor="#0A20EA"
+        android:textSize="20sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.527" />
+
+    <!--    <Button-->
+<!--        android:id="@+id/button3"-->
+<!--        android:layout_width="226dp"-->
+<!--        android:layout_height="65dp"-->
+<!--        android:backgroundTint="#6FE3B36C"-->
+<!--        android:fontFamily="cursive"-->
+
+<!--        android:onClick="Young"-->
+<!--        android:text="Click me shilpa"-->
+<!--        android:textColor="#0A20EA"-->
+<!--        android:textSize="20sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.427"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.884" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
